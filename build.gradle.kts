@@ -3,6 +3,7 @@ plugins {
     kotlin("plugin.serialization") version "1.8.21"
     id("fabric-loom") version "1.2-SNAPSHOT"
     id("io.github.juuxel.loom-quiltflower") version "1.8.0"
+    id("com.google.devtools.ksp") version "1.8.21-1.0.11"
 }
 
 version = property("mod_version")!!
@@ -38,6 +39,10 @@ dependencies {
     include(modImplementation("gg.essential:elementa-1.18.1-fabric:587")!!)
 
     modRuntimeOnly("me.djtheredstoner:DevAuth-fabric:1.1.2")
+
+    implementation(kotlin("stdlib-jdk8"))
+    implementation(project(":typing-generator"))
+    ksp(project(":typing-generator"))
 }
 
 loom {

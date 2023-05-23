@@ -6,12 +6,14 @@ import com.chattriggers.ctjs.minecraft.wrappers.entity.Team
 import com.chattriggers.ctjs.minecraft.wrappers.inventory.Inventory
 import com.chattriggers.ctjs.minecraft.wrappers.inventory.Item
 import com.chattriggers.ctjs.minecraft.wrappers.world.PotionEffect
+import com.chattriggers.ctjs.typing.annotations.CTApi
 import gg.essential.universal.UMath
 import gg.essential.universal.UMinecraft
 import gg.essential.universal.wrappers.message.UTextComponent
 import net.minecraft.client.network.ClientPlayerEntity
 import java.util.*
 
+@CTApi
 object Player {
     /**
      * Gets Minecraft's EntityPlayerSP object representing the user

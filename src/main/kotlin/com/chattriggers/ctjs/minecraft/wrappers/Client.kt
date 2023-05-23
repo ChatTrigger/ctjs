@@ -1,10 +1,10 @@
 package com.chattriggers.ctjs.minecraft.wrappers
 
-import com.chattriggers.ctjs.engine.langs.js.JSClient
 import com.chattriggers.ctjs.minecraft.listeners.ClientListener
 import com.chattriggers.ctjs.minecraft.objects.KeyBind
 import com.chattriggers.ctjs.mixins.ChatScreenAccessor
 import com.chattriggers.ctjs.mixins.KeyBindingAccessor
+import com.chattriggers.ctjs.typing.annotations.CTApi
 import com.chattriggers.ctjs.utils.asMixin
 import gg.essential.universal.UKeyboard
 import gg.essential.universal.UMinecraft

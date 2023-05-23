@@ -5,3 +5,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+rootProject.name = "ctjs"
+include(":typing-generator")
