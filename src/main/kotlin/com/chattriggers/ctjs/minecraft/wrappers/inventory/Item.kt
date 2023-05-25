@@ -13,6 +13,7 @@ import com.chattriggers.ctjs.utils.asMixin
 import gg.essential.universal.wrappers.message.UTextComponent
 import net.minecraft.block.pattern.CachedBlockPosition
 import net.minecraft.client.item.TooltipContext
+import net.minecraft.enchantment.Enchantment
 import net.minecraft.enchantment.EnchantmentHelper
 import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.item.ItemStack
